@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EmirKilic_HW2</string>
+    <string name="name">Job Application Tracker</string>
+    <string name="applied">Applied</string>
+    <string name="rejected">Rejected</string>
+    <string name="accepted">Accepted (in your dreams)</string>
+    <string name="label_company">Enter Company</string>
+    <string name="label_title">Enter Title</string>
+    <string name="label_status">Enter Status</string>
+    <string name="label_priority">Enter Priority</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_add_job">Add job application</string>
+    <string name="curr_job">Manage Job Application</string>
+    <string name="detail_title">Job Details</string>
+    <string name="status_label">Status:</string>
+    <string name="status_applied">Applied</string>
+    <string name="hint_title">Job Title</string>
+    <string name="priority_label">Priority</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="priority">PRIORITY</string>
+    <string name="job_details">Job Details</string>
+    <string name="edit_section">Edit</string>
+    <string name="hint_status">Status (Applied/Interview/Offer/Rejected)</string>
+
+    <string name="company_placeholder">Company:</string>
+    <string name="title_placeholder">Title:</string>
+    <string name="status_placeholder">Status:</string>
+    <string name="priority_placeholder">Priority:</string>
+
+        <string-array name="priority_array">
+            <item>HIGH</item>
+            <item>NORMAL</item>
+        </string-array>
+
+
+
+
+</resources>
