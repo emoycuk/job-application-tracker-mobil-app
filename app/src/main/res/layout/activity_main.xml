@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    android:textAlignment="center"
+    tools:context=".MainActivity"
+    android:background="#F5F5F5">
 
     <TextView
         android:id="@+id/textView"
@@ -18,12 +20,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/job_recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="511dp" />
 
     <com.emirkilic.hw2.CustomButton
         android:id="@+id/btnAddJob"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:textAlignment="center"
         app:customColor="@android:color/black"
         app:customSize="18sp"
         app:customText="@string/btn_add_job" />
